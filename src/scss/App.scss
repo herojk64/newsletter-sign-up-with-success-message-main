@@ -1,0 +1,14 @@
+@import "../prestyle.scss";
+
+.App{
+    min-height: 100svh;
+    padding:0 !important;
+    margin:0;
+    background-color: $Dark-Slate-Grey;
+}
+
+@media screen and (max-width:"575px") {
+    .App{
+        background-color: $White;
+    }
+}

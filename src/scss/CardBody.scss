@@ -1,0 +1,14 @@
+.description_list{
+    // list-style-image: url('../assets/icon-list.svg') !important;
+    // list-style-position: inside;
+    li{
+        text-align:justify;
+        list-style: none;
+            padding: 0px 0px 0px 30px;
+            background-image: url('../assets/icon-list.svg');
+            background-repeat: no-repeat;
+            background-position: left center;
+            background-size: 20px;
+        margin-bottom: 0.5rem;
+    }
+}

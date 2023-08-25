@@ -1,0 +1,174 @@
+@import "./prestyle.scss";
+
+.font-Roboto-bold{
+  font-family: $Roboto_bold,'Times New Roman', Times, serif;
+}
+.font-Roboto-regular{
+  font-family: $Roboto_regular,'Times New Roman', Times, serif;
+}
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+/* Remove default margins */
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd {
+  margin: 0;
+}
+
+/* Remove default paddings */
+ul,
+ol,
+li,
+dl,
+dt,
+dd {
+  padding: 0;
+}
+
+/* Remove list styles (bullet points) */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove hyperlink styles */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Reset form elements */
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background: none;
+  font: inherit;
+  color: inherit;
+  outline: none;
+  appearance: none;
+}
+
+/* Remove user-agent default styles for form elements */
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: inherit;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  color: inherit;
+}
+
+input::-ms-input-placeholder,
+textarea::-ms-input-placeholder {
+  color: inherit;
+}
+
+input::-ms-reveal,
+input::-ms-clear {
+  display: none;
+}
+
+/* Remove default button styles */
+button {
+  cursor: pointer;
+}
+
+/* Remove default border and outline for focused elements */
+button:focus,
+input:focus,
+textarea:focus {
+  outline: none;
+}
+
+/* Remove default background and border for button elements */
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  background: none;
+  border: none;
+}
+
+/* Remove default styling for image elements */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Remove default table border spacing and cell padding */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.h-screen{
+  min-height: 100svh;
+}
+
+.font-weight700{
+  font-weight: $Weight700;
+}
+
+.font-weight400{
+  font-weight: $Weight400;
+}
+
+.font-size16{
+  font-size: $Font-size16;
+}
+
+.text-dark-slate-grey{
+  color:$Dark-Slate-Grey;
+}
+
+.btn-primary{
+  background-color: $Dark-Slate-Grey;
+  transition: 2s ease-in-out !important;
+  color:$White;
+  
+}
+.btn-primary:hover{
+  background-image:linear-gradient(to right,$Tomato,$Tomato1) !important;
+  }
+
+  .pointer{
+    cursor: pointer;
+  }
+
+  .bg-error{
+    background-color: $danger;
+  }
+
+  .border-error{
+    border: 1px solid $danger;
+  }
+
+  .box-shadow-error{
+    box-shadow:0 0 0px 0px rgb(220,53,69);
+  }
+
